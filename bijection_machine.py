@@ -68,6 +68,7 @@ def bijection_machine(partition, A, B):
         toggle_min_disease(patient, A)
         iterations += 1
 
+"""
 #Usage:
 
 # Define lists of diseases A & B
@@ -84,4 +85,5 @@ bijection_machine(partition, A, B)
 # Choose a partition with no diseases in B, yields a partition with no diseases in A
 # NOTE: the order of arguments for diseases lists matters!
 partition = [22, 22, 10, 4]
-res = bijection_machine(partition, B, A)
+bijection_machine(partition, B, A)
+"""
