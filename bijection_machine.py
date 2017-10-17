@@ -27,9 +27,6 @@ def toggle_min_disease(patient, diseases):
                 sorted(patient[1])
             return
 
-# Patient: Doctor! Why are you giving me more diseases?!?
-# Doctor:  Quiet! You will be cured... eventually.....
-#
 # Replace existing diseases with diseases in new set
 def swap_diseases(patient, old_diseases, new_diseases):
     # Iterate over old diseases
